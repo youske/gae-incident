@@ -34,11 +34,11 @@ app.config['DEBUG'] = True
 
 gae = AppEngine(app)
 
-from target.general import *
-from target.alert import *
-from target.weather import *
-from target.trunko import *
-from target.yahoorss import *
+from controllers.general import *
+from controllers.alert import *
+from controllers.weather import *
+from controllers.trunko import *
+from controllers.yahoorss import *
 
 class whitelist(ndb.Model):
   host = ndb.StringProperty(required=True)
