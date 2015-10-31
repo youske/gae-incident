@@ -66,6 +66,7 @@ target/
 #
 
 # private setting
+aliases
 app.yaml
 controllers/config.py
 

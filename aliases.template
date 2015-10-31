@@ -1,0 +1,4 @@
+alias deploy='appcfg.py -A <appid> update app.yaml'
+alias dev='dev_appserver.py -A <appid> app.yaml --host 0.0.0.0 --port 8088 --admin_port 3000'
+alias upqueue='appcfg.py -A <appid> update_queues .'
+alias upcron='appcfg.py -A <appid> update_cron .'

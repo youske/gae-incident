@@ -1,34 +1,35 @@
-gae-messagebot
-==============
+gae-incident
+============
 
-#
+# gaiyou
 
+
+# setup
 
     $> sudo apt-get install pip
 
-
-
-
-
     $> pip -r requirements -t ./lib 
 
-# target/config.py
+# app.yaml
+    $> cp app.yaml.template app.yaml
 
-
-
+# controllers/config.py
+    $> cd controllers
+    $> cp config.py.template config.py
 
 # alias
-
-dev 
-
-deploy
-
+    $> cp aliases.template aliases
     $> source aliases
 
-
+# alias
+dev 
+deploy
+upqueue
+upcron
 
 # access limit
-
-target/config.py
+controllers/config.py
 REMOTE_WHITELIST
+
+
 
