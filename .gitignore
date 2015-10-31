@@ -68,6 +68,7 @@ target/
 # private setting
 aliases
 app.yaml
+appengine_config.py
 controllers/config.py
 
 
